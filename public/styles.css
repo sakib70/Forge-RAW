@@ -1,0 +1,42 @@
+:root {
+    --forge-bg: #020617;
+    --forge-card: #0f172a;
+    --forge-gold: #fbbf24;
+    --forge-border: #1e293b;
+}
+
+body {
+    background-color: var(--forge-bg);
+    color: #f8fafc;
+    font-family: 'Inter', sans-serif;
+}
+
+.asset-card {
+    background: var(--forge-card);
+    border: 1px solid var(--forge-border);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.gold-btn {
+    background: var(--forge-gold);
+    color: #000;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 12px;
+    border-radius: 4px;
+    transition: 0.3s;
+}
+
+.gold-btn:hover {
+    box-shadow: 0 0 15px rgba(251, 191, 36, 0.4);
+    transform: translateY(-2px);
+}
+
+.data-label {
+    color: #64748b;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
